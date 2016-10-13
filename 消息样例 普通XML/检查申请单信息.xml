@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<head>
+<Head>
    <!--发送方应用程序-->
-   <sendApplication>发送方应用程序</sendApplication>
+   <SendApplication>发送方应用程序</SendApplication>
    <!--接收方应用程序-->
    <ReceivingApplication>接收方应用程序</ReceivingApplication>
    <!--消息类型-->
@@ -12,10 +12,10 @@
    <ProcessingId>处理ID</ProcessingId>
    <!--版本ID-->
    <VersionId>版本ID</VersionId>
-</head>
-<body>
+</Head>
+<Body>
 	<!-- 检查申请单信息-->
-	<patient>
+	<Patient>
 		<!-- 病人ID  -->
 		<PatientId>病人ID</PatientId>
 		<IdList>
@@ -34,8 +34,8 @@
 		<Sex>性别</Sex>
 		<!-- 年龄  -->
 		<Age>年龄</Age>
-	</patient>
-	<visit>
+	</Patient>
+	<Visit>
 		<!-- 就诊类型  -->
 		<MedicalType>就诊类型</MedicalType>
 		<!-- 就诊流水号  -->
@@ -48,8 +48,8 @@
 		<Ward>病房号(病区)</Ward>
 		<!-- 床号  -->
 		<BedNo>床号</BedNo>
-	<visit>
-	<application>
+	<Visit>
+	<Application>
 		<CommonOder>
 			<!-- 申请控制 取值范围( ) -->
 			<OrderControl>申请控制</OrderControl>
@@ -76,7 +76,7 @@
 		</CommonOder>
 		<ObservertionRequest>
 			<!-- 检查项目类型  -->
-			<CheckItem>检查项目类型</CheckItem>
+			<CheckItemType>检查项目类型</CheckItemType>
 			<!-- 检查项目代码  -->
 			<CheckItemCode>检查项目代码</CheckItemCode>
 			<!-- 检查项目名称  -->
@@ -100,5 +100,5 @@
 			<!--观察值-->
 			<ObservationValue>观察值</ObservationValue>
 		</ObsResult>
-	</application>
-</body>
+	</Application>
+</Body>
