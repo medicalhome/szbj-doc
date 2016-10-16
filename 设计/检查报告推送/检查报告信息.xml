@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<head>
+	<!--字段分隔符-->
+	<FieldSeparator>字段分隔符</FieldSeparator>
+	<!--代码字符-->
+	<EncodingCharacters>代码字符</EncodingCharacters>	
+   <!--发送方应用程序-->
+   <SendApplication>发送方应用程序</SendApplication>
+   <!--接收方应用程序-->
+   <ReceivingApplication>接收方应用程序</ReceivingApplication>
+  <!--消息日期-->
+   <TimeOfMessage>消息日期</TimeOfMessage> 
+   <!--消息类型-->
+   <MessageType>消息类型</MessageType>
+   <!--消息ID-->
+   <MessageControlId></MessageControlId>
+   <!--处理ID-->
+   <ProcessingId>处理ID</ProcessingId>
+   <!--版本ID-->
+   <VersionId>版本ID</VersionId>
+    <!--消息接收确认类型-->
+   <AcceptAckType>消息接收确认类型</AcceptAxkType>
+    <!--消息接收确认类型-->
+   <ApplicationAckType>应用程序确认类型</ApplicationAckType>   
+    <!--国家代码-->
+   <CountryCode>国家代码</CountryCode>
+</head>
+<body>
+	<!-- 检查报告信息-->
+	<report>
+		<!-- 检查申请单信息-->
+		<Patient>
+			<!-- 病人ID  -->
+			<PatientId>病人ID</PatientId>
+			<IdList>
+				<Item>
+					<!--患者标识id-->
+					<Id>患者标识id</Id>
+					<!--患者标识类型  InpatientNO:住院号 OutpatientNo：门诊号 MedicareNo：医保卡号 PatientNo:-病历编号-->
+					<IdTypeCode>患者标识类型</IdTypeCode>
+				</Item>
+			</IdList>
+			<!-- 姓名  -->
+			<PatientName>姓名</PatientName>
+			<!-- 医院Id  -->
+			<HospitalId>医院Id</HospitalId>
+			<!-- 性别  -->
+			<Sex>性别</Sex>
+			<!-- 出生日期  -->
+			<Birthday>年龄</Birthday>
+		</Patient>
+		<visit>
+			<!-- 就诊类型  -->
+			<MedicalType>就诊类型</MedicalType>
+			<!-- 就诊流水号  -->
+			<VisitNo>就诊流水号</VisitNo>
+			<!-- 就诊次数  -->
+			<VisitTimes>就诊次数</VisitTimes>
+			<!-- 病区编码  -->
+			<WardCode>病区编码</WardCode>
+			<!-- 病房号(病区)  -->
+			<Ward>病房号(病区)</Ward>
+			<!-- 床号  -->
+			<BedNo>床号</BedNo>
+			<!--就诊科室编码 -->
+			<DeptCode>就诊科室编码 </DeptCode>
+			<!--就诊科室名称 -->
+			<DeptCode>就诊科室名称 </DeptCode>			
+		<visit>
+		<ObservertionRequest>
+			<!-- 申请单号  -->
+			<ApplyNo>申请单号</ApplyNo>
+			<!-- 报告医生编码  -->
+			<ReportDoctorCode>报告医生编码</ReportDoctorCode>
+			<!-- 报告医生  -->
+			<ReportDoctorNm>报告医生名称</ReportDoctorNm>
+			<!-- 报告时间  -->
+			<ReportTime>报告时间</ReportTime>
+			<!-- 审核医生编码  -->
+			<CheckedDoctorCode>审核医生编码</CheckedDoctorCode>
+			<!-- 审核医生名称  -->
+			<CheckedDoctorNm>审核医生名称</CheckedDoctor>
+			<!-- 审核时间  -->
+			<CheckedTime>审核时间</CheckedTime>		
+			<!-- 检查科室编码  -->
+			<CollectDeptCode>检查科室编码</CollectDeptCode>
+			<!-- 检查科室名称  -->
+			<CollectDeptName>检查科室名称</CollectDeptName>
+		</ObservertionRequest>
+		<ObsResult>
+			<!--identifier:
+			SIGN:临床症状及体征  HISTORY:既往病史
+			RIS:检查结果  LIS:检验结果  DRUG:用药情况
+			REMARK:备注 DIAG:诊断  SITE：部位描述-->
+			<!-- 报告Id  -->
+			<StaticEcgId>报告Id</StaticEcgId>
+			<!--观察标识符-->
+			<ObsIdentifier>观察标识符</ObsIdentifier>
+			<!--值类型 ST-->
+			<ValueType></ValueType>
+			<!--观察值-->
+			<ObservationValue>观察值</ObservationValue>
+
+		</ObsResult>
+		<!-- 心率  -->
+		<Rate>心率</Rate>
+		<!-- PR间期  -->
+		<PRInterval>PR间期</PRInterval>
+		<!-- QRS时限  -->
+		<QRSDuration>QRS时限</QRSDuration>
+		<!-- QT间期  -->
+		<QTInterval>QT间期</QTInterval>
+		<!-- QTc间期  -->
+		<QTcInterval>QTc间期</QTcInterval>
+		<!-- P电轴  -->
+		<PAxes>P电轴</PAxes>
+		<!-- QRS电轴  -->
+		<QRSAxes>QRS电轴</QRSAxes>
+		<!-- T电轴  -->
+		<TAxes>T电轴</TAxes>
+		<!-- RV5  -->
+		<RV5>RV5</RV5>
+		<!-- SV1  -->
+		<SV1>SV1</SV1>
+		<!-- RS  -->
+		<RS>RS</RS>
+
+		<!-- 特征  -->
+		<Feature>特征</Feature>
+		<!-- 诊断结果  -->
+		<Diagnosis>诊断结果</Diagnosis>
+		<!-- 是否会诊  -->
+		<IsConsultation>是否会诊</IsConsultation>
+		<!-- 会诊医院Id  -->
+		<ConsultationHospital>会诊医院Id</ConsultationHospital>
+		<!-- 会诊医生  -->
+		<ConsultationDoctor>会诊医生</ConsultationDoctor>
+		<!-- 会诊时间  -->
+		<ConsultationTime>会诊时间</ConsultationTime>
+		<!-- 检查医生/操作医生，技师  -->
+		<CollectDoctor>检查医生/操作医生，技师</CollectDoctor>
+		<!-- 自定义1  -->
+		<UserDef1>自定义1</UserDef1>
+		<!-- 自定义2  -->
+		<UserDef2>自定义2</UserDef2>
+		<!-- 自定义3   -->
+		<UserDef3>自定义3 </UserDef3>
+		<!-- 检查时间  -->
+		<CollectTime>检查时间</CollectTime>
+		<!-- 检查医生ID  -->
+		<AdviceDoctorID>检查医生ID</AdviceDoctorID>
+
+		<!-- 文件类型  -->
+		<fileType>文件类型</fileType>
+		<!-- 影像内容 影像内容为Base64 -->
+		<Image>
+			<!--影像格式-->
+			<MediaType></MediaType>
+			<!--影像内容-->
+			<ImageContent>图片内容</ImageContent>
+		</Image>
+	</report>
+</body>
+
+
