@@ -100,68 +100,7 @@
 			<ValueType></ValueType>
 			<!--观察值-->
 			<ObservationValue>观察值</ObservationValue>
-
 		</ObsResult>
-
-
-
-		<!-- 心率  -->
-		<Rate>心率</Rate>
-		<!-- PR间期  -->
-		<PRInterval>PR间期</PRInterval>
-		<!-- QRS时限  -->
-		<QRSDuration>QRS时限</QRSDuration>
-		<!-- QT间期  -->
-		<QTInterval>QT间期</QTInterval>
-		<!-- QTc间期  -->
-		<QTcInterval>QTc间期</QTcInterval>
-		<!-- P电轴  -->
-		<PAxes>P电轴</PAxes>
-		<!-- QRS电轴  -->
-		<QRSAxes>QRS电轴</QRSAxes>
-		<!-- T电轴  -->
-		<TAxes>T电轴</TAxes>
-		<!-- RV5  -->
-		<RV5>RV5</RV5>
-		<!-- SV1  -->
-		<SV1>SV1</SV1>
-		<!-- RS  -->
-		<RS>RS</RS>
-
-		<!-- 特征  -->
-		<Feature>特征</Feature>
-		<!-- 诊断结果  -->
-		<Diagnosis>诊断结果</Diagnosis>
-		<!-- 是否会诊  -->
-		<IsConsultation>是否会诊</IsConsultation>
-		<!-- 会诊医院Id  -->
-		<ConsultationHospital>会诊医院Id</ConsultationHospital>
-		<!-- 会诊医生  -->
-		<ConsultationDoctor>会诊医生</ConsultationDoctor>
-		<!-- 会诊时间  -->
-		<ConsultationTime>会诊时间</ConsultationTime>
-		<!-- 检查医生/操作医生，技师  -->
-		<CollectDoctor>检查医生/操作医生，技师</CollectDoctor>
-		<!-- 自定义1  -->
-		<UserDef1>自定义1</UserDef1>
-		<!-- 自定义2  -->
-		<UserDef2>自定义2</UserDef2>
-		<!-- 自定义3   -->
-		<UserDef3>自定义3 </UserDef3>
-		<!-- 检查时间  -->
-		<CollectTime>检查时间</CollectTime>
-		<!-- 检查医生ID  -->
-		<AdviceDoctorID>检查医生ID</AdviceDoctorID>
-
-		<!-- 文件类型  -->
-		<fileType>文件类型</fileType>
-		<!-- 影像内容 影像内容为Base64 -->
-		<Image>
-			<!--影像格式-->
-			<MediaType></MediaType>
-			<!--影像内容-->
-			<ImageContent>图片内容</ImageContent>
-		</Image>
 	</report>
 </body>
 
