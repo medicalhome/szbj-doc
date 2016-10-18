@@ -112,7 +112,7 @@
 
 	"PatientId" : {
 		"desc" : "患者id",
-		"path" : "/PATIENT/PID-2",
+		"path" : "/PID-2",
 		"display" : "",
 		"type" : "string",
 		"format" : "",
@@ -129,7 +129,7 @@
 	"child" : {
 		"id" : {
 			"desc" : "标识号",
-			"path" : "/PID-3-1",
+			"path" : "/PID-3(#)-1",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
@@ -137,7 +137,7 @@
 		},
 		"idTypeCode" : {
 			"desc" : "标识类型",
-			"path" : "/PID-3-5",
+			"path" : "/PID-3(#)-5",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
