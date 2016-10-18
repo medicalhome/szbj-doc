@@ -23,9 +23,7 @@
 		"display" : "",
 		"type" : "string",
 		"format" : "",
-		"multiplicity" : "0..1",
-		"destPath": "/head/SendApplication",
-		"destFormat": ""
+		"multiplicity" : "0..1"
 	},
 	"ReceivingApplication" : {
 		"desc" : "接收方系统",
@@ -129,7 +127,7 @@
 	"child" : {
 		"id" : {
 			"desc" : "标识号",
-			"path" : "/PID-3-1",
+			"path" : "/PID-3(#)-1",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
@@ -137,7 +135,7 @@
 		},
 		"idTypeCode" : {
 			"desc" : "标识类型",
-			"path" : "/PID-3-5",
+			"path" : "/PID-3(#)-5",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
@@ -300,7 +298,7 @@
 
 	"Obxs" : {
 	"desc" : "观察结果",
-	"path" : "/OBX",
+	"path" : "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION/OBX",
 	"display" : "",
 	"type" : "complex",
 	"format" : "",
@@ -308,7 +306,7 @@
 	"child" : {
 		"ValueType" : {
 			"desc" : "值类型",
-			"path" : "/OBX-2",
+			"path" : "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION/OBX(#)/OBX-2",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
@@ -316,14 +314,14 @@
 		},	
 		"ObsIdentifierCode" : {
 			"desc" : "标识符",
-			"path" : "/OBX-3-1",
+			"path" : "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION/OBX(#)/OBX-3-1",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
 			"multiplicity" : "0..1"
 		},
 		"ObsIdentifierName" : {
-			"desc" : "/OBX-3-2",
+			"desc" : "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION/OBX(#)/OBX-3-2",
 			"path" : "",
 			"display" : "",
 			"type" : "string",
@@ -331,7 +329,7 @@
 			"multiplicity" : "0..1"
 		"ObsValue" : {
 			"desc" : "观察值",
-			"path" : "/OBX-5",
+			"path" : "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION/OBX(#)/OBX-5",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
