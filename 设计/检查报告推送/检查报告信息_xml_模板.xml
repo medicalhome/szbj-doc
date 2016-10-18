@@ -98,8 +98,10 @@
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
 			<!-- 报告Id  -->
 			<StaticEcgId>报告Id</StaticEcgId>
-			<!--观察标识符-->
-			<ObsIdentifier>观察标识符</ObsIdentifier>
+			<!--观察标识符编码-->
+			<ObsIdentifierCode>观察标识符编码</ObsIdentifierCode>
+			<!--观察标识符名称-->
+			<ObsIdentifierName>观察标识符名称</ObsIdentifierName>
 			<!--值类型 ST-->
 			<ValueType></ValueType>
 			<!--观察值-->

@@ -300,7 +300,7 @@
 
 	"Obxs" : {
 	"desc" : "观察结果",
-	"path" : "/Body/Application/ObsResult",
+	"path" : "/OBX",
 	"display" : "",
 	"type" : "complex",
 	"format" : "",
@@ -308,23 +308,30 @@
 	"child" : {
 		"ValueType" : {
 			"desc" : "值类型",
-			"path" : "ValueType",
+			"path" : "/OBX-2",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
 			"multiplicity" : "0..1"
 		},	
-		"ObsIdentifier" : {
+		"ObsIdentifierCode" : {
 			"desc" : "标识符",
-			"path" : "ObsIdentifier",
+			"path" : "/OBX-3-1",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
 			"multiplicity" : "0..1"
 		},
+		"ObsIdentifierName" : {
+			"desc" : "/OBX-3-2",
+			"path" : "",
+			"display" : "",
+			"type" : "string",
+			"format" : "",
+			"multiplicity" : "0..1"
 		"ObsValue" : {
 			"desc" : "观察值",
-			"path" : "ObservationValue",
+			"path" : "/OBX-5",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
