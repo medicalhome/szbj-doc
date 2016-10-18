@@ -109,8 +109,10 @@
 			SIGN:临床症状及体征  HISTORY:既往病史
 			RIS:检查结果  LIS:检验结果  DRUG:用药情况
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
-			<!--观察标识符-->
-			<ObsIdentifier>观察标识符</ObsIdentifier>
+			<!--观察标识符编码-->
+			<ObsIdentifierCode>观察标识符编码</ObsIdentifierCode>
+			<!--观察标识符名称-->
+			<ObsIdentifierName>观察标识符名称</ObsIdentifierName>
 			<!--值类型 ST-->
 			<ValueType></ValueType>
 			<!--观察值-->

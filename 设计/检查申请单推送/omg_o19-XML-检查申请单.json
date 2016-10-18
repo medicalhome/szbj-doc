@@ -312,9 +312,17 @@
 			"format" : "",
 			"multiplicity" : "0..1"
 		},	
-		"ObsIdentifier" : {
-			"desc" : "标识符",
-			"path" : "ObsIdentifier",
+		"ObsIdentifierCode" : {
+			"desc" : "标识符编码",
+			"path" : "ObsIdentifierCode",
+			"display" : "",
+			"type" : "string",
+			"format" : "",
+			"multiplicity" : "0..1"
+		},
+		"ObsIdentifierName" : {
+			"desc" : "标识符名称",
+			"path" : "ObsIdentifierName",
 			"display" : "",
 			"type" : "string",
 			"format" : "",

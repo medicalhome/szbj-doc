@@ -116,7 +116,8 @@
 			RIS:检查结果  LIS:检验结果  DRUG:用药情况
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
 			<!--观察标识符-->
-			<ObsIdentifier>SIGN</ObsIdentifier>
+			<ObsIdentifierCode>SIGN</ObsIdentifierCode>
+			<ObsIdentifierName></ObsIdentifierName>
 			<!--值类型 ST-->
 			<ValueType>ST</ValueType>
 			<!--观察值-->
@@ -128,7 +129,8 @@
 			RIS:检查结果  LIS:检验结果  DRUG:用药情况
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
 			<!--观察标识符-->
-			<ObsIdentifier>DIAG</ObsIdentifier>
+			<ObsIdentifierCode>DIAG</ObsIdentifierCode>
+			<ObsIdentifierName></ObsIdentifierName>
 			<!--值类型 ST-->
 			<ValueType>ST</ValueType>
 			<!--观察值-->
@@ -140,7 +142,8 @@
 			RIS:检查结果  LIS:检验结果  DRUG:用药情况
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
 			<!--观察标识符-->
-			<ObsIdentifier>HISTORY</ObsIdentifier>
+			<ObsIdentifierCode>HISTORY</ObsIdentifierCode>
+			<ObsIdentifierName></ObsIdentifierName>
 			<!--值类型 ST-->
 			<ValueType>ST</ValueType>
 			<!--观察值-->
@@ -152,7 +155,8 @@
 			RIS:检查结果  LIS:检验结果  DRUG:用药情况
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
 			<!--观察标识符-->
-			<ObsIdentifier>SITE</ObsIdentifier>
+			<ObsIdentifierCode>SITE</ObsIdentifierCode>
+			<ObsIdentifierName></ObsIdentifierName>
 			<!--值类型 ST-->
 			<ValueType>ST</ValueType>
 			<!--观察值-->

@@ -317,14 +317,22 @@
 			"format" : "",
 			"multiplicity" : "0..1",
 		},	
-		"ObsIdentifier" : {
+		"ObsIdentifierCode" : {
 			"desc" : "标识符",
-			"path" : "/OBX-3",
+			"path" : "/OBX-3-1",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
-			"multiplicity" : "0..1",
+			"multiplicity" : "0..1"
 		},
+		"ObsIdentifierName" : {
+			"desc" : "/OBX-3-2",
+			"path" : "",
+			"display" : "",
+			"type" : "string",
+			"format" : "",
+			"multiplicity" : "0..1"
+
 		"ObsValue" : {
 			"desc" : "观察值",
 			"path" : "/OBX-5",
