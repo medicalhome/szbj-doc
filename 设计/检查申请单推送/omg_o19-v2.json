@@ -23,9 +23,7 @@
 		"display" : "",
 		"type" : "string",
 		"format" : "",
-		"multiplicity" : "0..1",
-		"destPath": "/head/SendApplication",
-		"destFormat": ""
+		"multiplicity" : "0..1"
 	},
 	"ReceivingApplication" : {
 		"desc" : "接收方系统",
