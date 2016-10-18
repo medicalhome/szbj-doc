@@ -311,7 +311,7 @@
 	"child" : {
 		"ValueType" : {
 			"desc" : "值类型",
-			"path" : "/OBX-2",
+			"path" : "/ORDER/OBSERVATION(#)/OBX-2",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
@@ -319,14 +319,14 @@
 		},	
 		"ObsIdentifierCode" : {
 			"desc" : "标识符",
-			"path" : "/OBX-3-1",
+			"path" : "/ORDER/OBSERVATION(#)/OBX-3-1",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
 			"multiplicity" : "0..1"
 		},
 		"ObsIdentifierName" : {
-			"desc" : "/OBX-3-2",
+			"desc" : "/ORDER/OBSERVATION(#)/OBX-3-2",
 			"path" : "",
 			"display" : "",
 			"type" : "string",
@@ -335,7 +335,7 @@
 
 		"ObsValue" : {
 			"desc" : "观察值",
-			"path" : "/OBX-5",
+			"path" : "/ORDER/OBSERVATION(#)/OBX-5",
 			"display" : "",
 			"type" : "string",
 			"format" : "",
