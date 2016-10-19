@@ -19,7 +19,7 @@
    <!--版本ID-->
    <VersionId></VersionId>
     <!--消息接收确认类型-->
-   <AcceptAckType></AcceptAxkType>
+   <AcceptAckType></AcceptAckType>
     <!--消息接收确认类型-->
    <ApplicationAckType></ApplicationAckType>   
     <!--国家代码-->
@@ -29,7 +29,7 @@
 	<!-- 检查申请单信息-->
 	<Patient>
 		<!-- 病人ID  -->
-		<PatientId>病人ID</PatientId>
+		<PatientId></PatientId>
 		<IdList>
 			<Item>
 				<!--患者标识id-->
