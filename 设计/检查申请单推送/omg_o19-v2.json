@@ -95,14 +95,6 @@
         "format": "",
         "multiplicity": "0..1"
     },
-    "OrderControl": {
-        "desc": "申请控制",
-        "path": "/ORC-1",
-        "display": "",
-        "type": "string",
-        "format": "",
-        "multiplicity": "0..1"
-    },
     "PatientId": {
         "desc": "患者id",
         "path": "/PID-2",
@@ -193,6 +185,30 @@
         "format": "",
         "multiplicity": "0..1"
     },
+    "OrderControl": {
+        "desc": "申请控制",
+        "path": "/ORC-1",
+        "display": "",
+        "type": "string",
+        "format": "",
+        "multiplicity": "0..1"
+    },
+	"ApplyNo": {
+	    "desc": "申请单编号",
+	    "path": "/ORC-2",
+	    "display": "",
+	    "type": "string",
+	    "format": "",
+	    "multiplicity": "0..1"
+	},
+	"AdviceNo": {
+	    "desc": "医嘱号",
+	    "path": "/ORC-4",
+	    "display": "",
+	    "type": "string",
+	    "format": "",
+	    "multiplicity": "0..1"
+	},
     "AdviceDoctorCode": {
         "desc": "申请医生编码",
         "path": "/ORC-12-1",
@@ -241,6 +257,15 @@
         "format": "",
         "multiplicity": "0..1"
     },
+
+    "CheckItemType": {
+            "desc": "检查项目类型",
+            "path": "/OBR-4-3",
+            "display": "",
+            "type": "string",
+            "format": "",
+            "multiplicity": "0..1"
+     },
     "CheckItemCode": {
         "desc": "检查项目编码",
         "path": "/OBR-4-1",
@@ -257,6 +282,14 @@
         "format": "",
         "multiplicity": "0..1"
     },
+	"ApplicationType": {
+	    "desc": "申请单类型",
+	    "path": "",
+	    "display": "",
+	    "type": "string",
+	    "format": "",
+	    "multiplicity": "0..1"
+	},
     "ExecuteDeptCode": {
         "desc": "执行科室编码",
         "path": "/OBR-20",
