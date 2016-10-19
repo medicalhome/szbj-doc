@@ -1,29 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Head>
-   <!--字段分隔符-->
-   <FieldSeparator>|</FieldSeparator>
-   <!--代码字符-->
-   <EncodingCharacters>^~\&</EncodingCharacters>
-   <!--发送方应用程序-->
-   <SendApplication>CIS</SendApplication>
-   <!--接收方应用程序-->
-   <ReceivingApplication>ECG</ReceivingApplication>
-   <!-- 消息日期 -->
-   <TimeOfMessage>20150515113334</TimeOfMessage>
-   <!--消息类型-->
-   <MessageType>OMG^O19</MessageType>
-   <!--消息ID-->
-   <MessageControlId>20150515113334</MessageControlId>
-   <!--处理ID-->
-   <ProcessingId>P</ProcessingId>
-   <!--版本ID-->
-   <VersionId>2.4</VersionId>
-   <!--消息接收确认类型-->
-   <AcceptAckType>AL</AcceptAckType>
-   <!--应用程序确认类型-->
-   <ApplicationAckType>AL</ApplicationAckType>
-   <!--国家代码-->
-   <CountryCode>CHN</CountryCode>
+   <MSH>
+	   <!--字段分隔符-->
+	   <FieldSeparator>|</FieldSeparator>
+	   <!--代码字符-->
+	   <EncodingCharacters>^~\&</EncodingCharacters>
+	   <!--发送方应用程序-->
+	   <SendApplication>CIS</SendApplication>
+	   <!--接收方应用程序-->
+	   <ReceivingApplication>ECG</ReceivingApplication>
+	   <!-- 消息日期 -->
+	   <TimeOfMessage>20150515113334</TimeOfMessage>
+	   <!--消息类型-->
+	   <MessageType>OMG^O19</MessageType>
+	   <!--消息ID-->
+	   <MessageControlId>20150515113334</MessageControlId>
+	   <!--处理ID-->
+	   <ProcessingId>P</ProcessingId>
+	   <!--版本ID-->
+	   <VersionId>2.4</VersionId>
+	   <!--消息接收确认类型-->
+	   <AcceptAckType>AL</AcceptAckType>
+	   <!--应用程序确认类型-->
+	   <ApplicationAckType>AL</ApplicationAckType>
+	   <!--国家代码-->
+	   <CountryCode>CHN</CountryCode>
+   </MSH>
 </Head>
 <Body>
 	<!-- 检查申请单信息-->
