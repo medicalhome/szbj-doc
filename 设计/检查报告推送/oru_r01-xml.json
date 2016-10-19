@@ -1,7 +1,7 @@
 {
     "FieldSeparator": {
         "desc": "字段分隔符",
-        "path": "/Head/FieldSeparator",
+        "path": "/Head/MSH/FieldSeparator",
         "display": "",
         "type": "string",
         "format": "",
@@ -9,7 +9,7 @@
     },
     "EncodingCharacters": {
         "desc": "代码字符",
-        "path": "/Head/EncodingCharacters",
+        "path": "/Head/MSH/EncodingCharacters",
         "display": "",
         "type": "string",
         "format": "",
@@ -17,7 +17,7 @@
     },
     "SendApplication": {
         "desc": "发送系统",
-        "path": "/Head/SendApplication",
+        "path": "/Head/MSH/SendApplication",
         "display": "",
         "type": "string",
         "format": "",
@@ -25,7 +25,7 @@
     },
     "ReceivingApplication": {
         "desc": "接收方系统",
-        "path": "/Head/ReceivingApplication",
+        "path": "/Head/MSH/ReceivingApplication",
         "display": "",
         "type": "string",
         "format": "",
@@ -33,7 +33,7 @@
     },
     "TimeOfMessage": {
         "desc": "消息日期",
-        "path": "/Head/TimeOfMessage",
+        "path": "/Head/MSH/TimeOfMessage",
         "display": "",
         "type": "string",
         "format": "",
@@ -41,7 +41,7 @@
     },
     "MessageType": {
         "desc": "消息类型",
-        "path": "/Head/MessageType",
+        "path": "/Head/MSH/MessageType",
         "display": "",
         "type": "string",
         "format": "",
@@ -49,7 +49,7 @@
     },
     "MessageControlId": {
         "desc": "消息ID",
-        "path": "/Head/MessageControlId",
+        "path": "/Head/MSH/MessageControlId",
         "display": "",
         "type": "string",
         "format": "",
@@ -57,7 +57,7 @@
     },
     "ProcessingId": {
         "desc": "处理ID",
-        "path": "/Head/ProcessingId",
+        "path": "/Head/MSH/ProcessingId",
         "display": "",
         "type": "string",
         "format": "",
@@ -65,7 +65,7 @@
     },
     "VersionId": {
         "desc": "版本ID",
-        "path": "/Head/VersionId",
+        "path": "/Head/MSH/VersionId",
         "display": "",
         "type": "string",
         "format": "",
@@ -73,7 +73,7 @@
     },
     "AcceptAckType": {
         "desc": "消息接收确认类型",
-        "path": "/Head/AcceptAckType",
+        "path": "/Head/MSH/AcceptAckType",
         "display": "",
         "type": "string",
         "format": "",
@@ -81,7 +81,7 @@
     },
     "ApplicationAckType": {
         "desc": "应用程序确认类型",
-        "path": "/Head/ApplicationAckType",
+        "path": "/Head/MSH/ApplicationAckType",
         "display": "",
         "type": "string",
         "format": "",
@@ -89,7 +89,7 @@
     },
     "CountryCode": {
         "desc": "国家代码",
-        "path": "/Head/CountryCode",
+        "path": "/Head/MSH/CountryCode",
         "display": "",
         "type": "string",
         "format": "",
