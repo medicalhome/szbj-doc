@@ -1,7 +1,7 @@
 {
     "FieldSeparator": {
         "desc": "字段分隔符",
-        "path": "/Head/FieldSeparator",
+        "path": "/Msg/Head/FieldSeparator",
         "display": "",
         "type": "string",
         "format": "",
@@ -9,7 +9,7 @@
     },
     "EncodingCharacters": {
         "desc": "代码字符",
-        "path": "/Head/EncodingCharacters",
+        "path": "/Msg/Head/EncodingCharacters",
         "display": "",
         "type": "string",
         "format": "",
@@ -17,7 +17,7 @@
     },
     "SendApplication": {
         "desc": "发送系统",
-        "path": "/Head/SendApplication",
+        "path": "/Msg/Head/SendApplication",
         "display": "",
         "type": "string",
         "format": "",
@@ -25,7 +25,7 @@
     },
     "ReceivingApplication": {
         "desc": "接收方系统",
-        "path": "/Head/ReceivingApplication",
+        "path": "/Msg/Head/ReceivingApplication",
         "display": "",
         "type": "string",
         "format": "",
@@ -33,7 +33,7 @@
     },
     "TimeOfMessage": {
         "desc": "消息日期",
-        "path": "/Head/TimeOfMessage",
+        "path": "/Msg/Head/TimeOfMessage",
         "display": "",
         "type": "string",
         "format": "",
@@ -41,7 +41,7 @@
     },
     "MessageType": {
         "desc": "消息类型",
-        "path": "/Head/MessageType",
+        "path": "/Msg/Head/MessageType",
         "display": "",
         "type": "string",
         "format": "",
@@ -49,7 +49,7 @@
     },
     "MessageControlId": {
         "desc": "消息ID",
-        "path": "/Head/MessageControlId",
+        "path": "/Msg/Head/MessageControlId",
         "display": "",
         "type": "string",
         "format": "",
@@ -57,7 +57,7 @@
     },
     "ProcessingId": {
         "desc": "处理ID",
-        "path": "/Head/MSH/ProcessingId",
+        "path": "/Msg/Head/MSH/ProcessingId",
         "display": "",
         "type": "string",
         "format": "",
@@ -65,7 +65,7 @@
     },
     "VersionId": {
         "desc": "版本ID",
-        "path": "/Head/MSH/VersionId",
+        "path": "/Msg/Head/MSH/VersionId",
         "display": "",
         "type": "string",
         "format": "",
@@ -73,7 +73,7 @@
     },
     "AcceptAckType": {
         "desc": "消息接收确认类型",
-        "path": "/Head/MSH/AcceptAckType",
+        "path": "/Msg/Head/MSH/AcceptAckType",
         "display": "",
         "type": "string",
         "format": "",
@@ -81,7 +81,7 @@
     },
     "ApplicationAckType": {
         "desc": "应用程序确认类型",
-        "path": "/Head/MSH/ApplicationAckType",
+        "path": "/Msg/Head/MSH/ApplicationAckType",
         "display": "",
         "type": "string",
         "format": "",
@@ -89,7 +89,7 @@
     },
     "CountryCode": {
         "desc": "国家代码",
-        "path": "/Head/MSH/CountryCode",
+        "path": "/Msg/Head/MSH/CountryCode",
         "display": "",
         "type": "string",
         "format": "",
@@ -97,7 +97,7 @@
     },
     "AckCode": {
         "desc": "确认代码",
-        "path": "/Head/MSA/AckCode",
+        "path": "/Msg/Head/MSA/AckCode",
         "display": "",
         "type": "string",
         "format": "",
@@ -105,7 +105,7 @@
     },
     "DelayedAckType": {
         "desc": "延迟确认类型",
-        "path": "/Head/MSA/DelayedAckType",
+        "path": "/Msg/Head/MSA/DelayedAckType",
         "display": "",
         "type": "string",
         "format": "",
@@ -113,7 +113,7 @@
     },
     "PatientId": {
         "desc": "患者id",
-        "path": "/Body/Patient/PatientId",
+        "path": "/Msg/Body/Patient/PatientId",
         "display": "",
         "type": "string",
         "format": "",
@@ -121,7 +121,7 @@
     },
     "PIdList": {
         "desc": "患者标识",
-        "path": "/Body/Patient/IdList/Item",
+        "path": "/Msg/Body/Patient/IdList/Item",
         "display": "",
         "type": "complex",
         "format": "",
@@ -129,7 +129,7 @@
         "child": {
             "Id": {
                 "desc": "标识号",
-                "path": "s:Id",
+                "path": "Id",
                 "display": "",
                 "type": "string",
                 "format": "",
@@ -137,7 +137,7 @@
             },
             "IdTypeCode": {
                 "desc": "标识类型",
-                "path": "s:IdTypeCode",
+                "path": "IdTypeCode",
                 "display": "",
                 "type": "string",
                 "format": "",
@@ -147,7 +147,7 @@
 	},
         "PatientName": {
             "desc": "患者名称",
-            "path": "/Body/Patient/PatientName",
+            "path": "/Msg/Body/Patient/PatientName",
             "display": "",
             "type": "string",
             "format": "",
@@ -155,7 +155,7 @@
         },
         "GenderCode": {
             "desc": "性别编码",
-            "path": "/Body/Patient/Sex",
+            "path": "/Msg/Body/Patient/Sex",
             "display": "",
             "type": "string",
             "format": "",
@@ -163,7 +163,7 @@
         },
         "MedicalType": {
             "desc": "就诊类别",
-            "path": "/Body/Application/CommonOder/MedicalType",
+            "path": "/Msg/Body/Application/CommonOder/MedicalType",
             "display": "",
             "type": "string",
             "format": "",
@@ -171,7 +171,7 @@
         },
         "VisitOrdNo": {
             "desc": "就诊流水号",
-            "path": "/Body/Application/CommonOder/VisitNo",
+            "path": "/Msg/Body/Application/CommonOder/VisitNo",
             "display": "",
             "type": "string",
             "format": "",
@@ -179,7 +179,7 @@
         },
         "OrderControl": {
             "desc": "申请控制",
-            "path": "/Body/Application/CommonOder/OrderControl",
+            "path": "/Msg/Body/Application/CommonOder/OrderControl",
             "display": "",
             "type": "string",
             "format": "",
@@ -187,7 +187,7 @@
         },
         "OperateTime": {
             "desc": "操作时间",
-            "path": "/Body/Application/CommonOder/OperateTime",
+            "path": "/Msg/Body/Application/CommonOder/OperateTime",
             "display": "",
             "type": "string",
             "format": "",
@@ -195,7 +195,7 @@
         },
         "OperatorCode": {
             "desc": "操作者编码",
-            "path": "/Body/Application/CommonOder/OperatorCode",
+            "path": "/Msg/Body/Application/CommonOder/OperatorCode",
             "display": "",
             "type": "string",
             "format": "",
@@ -203,7 +203,7 @@
         },
         "OperatorName": {
             "desc": "操作者名称",
-            "path": "/Body/Application/CommonOder/OperatorName",
+            "path": "/Msg/Body/Application/CommonOder/OperatorName",
             "display": "",
             "type": "string",
             "format": "",
