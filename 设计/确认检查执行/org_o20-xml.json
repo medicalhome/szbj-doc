@@ -185,6 +185,23 @@
             "format": "",
             "multiplicity": "0..1"
         },
+	"ApplyNo": {
+	    "desc": "申请单编号",
+	    "path": "/Msg/Body/Application/CommonOder/ApplyNo",
+	    "display": "",
+	    "type": "string",
+	    "format": "",
+	    "multiplicity": "0..1"
+	},
+	"AdviceNo": {
+	    "desc": "医嘱号",
+	    "path": "/Msg/Body/Application/CommonOder/AdviceNo",
+	    "display": "",
+	    "type": "string",
+	    "format": "",
+	    "multiplicity": "0..1"
+	},
+
         "OperateTime": {
             "desc": "操作时间",
             "path": "/Msg/Body/Application/CommonOder/OperateTime",
