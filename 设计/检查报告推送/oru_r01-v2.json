@@ -193,6 +193,7 @@
         "format": "",
         "multiplicity": "0..1"
     },
+
     "CheckItemCode": {
         "desc": "检查项目编码",
         "path": "/OBR-4-1",
