@@ -1,76 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Msg>
-<Head>
-	<MSH>
-	   <!--字段分隔符-->
-	   <FieldSeparator>|</FieldSeparator>
-	   <!--代码字符-->
-	   <EncodingCharacters>^~\&</EncodingCharacters>
-	   <!--发送方应用程序-->
-	   <SendApplication>CIS</SendApplication>
-	   <!--接收方应用程序-->
-	   <ReceivingApplication>ECG</ReceivingApplication>
-	   <!-- 消息日期 -->
-	   <TimeOfMessage>20150515113226</TimeOfMessage>
-	   <!--消息类型-->
-	   <MessageType>OMG^O19</MessageType>
-	   <!--消息ID-->
-	   <MessageControlId>37555225</MessageControlId>
-	   <!--处理ID-->
-	   <ProcessingId>P</ProcessingId>
-	   <!--版本ID-->
-	   <VersionId>2.4</VersionId>
-	   <!--消息接收确认类型-->
-	   <AcceptAckType>AL</AcceptAckType>
-	   <!--应用程序确认类型-->
-	   <ApplicationAckType>AL</ApplicationAckType>
-	   <!--国家代码-->
-	   <CountryCode>CHN</CountryCode>
-	</MSH>
-	 <MSA>
-		<!--确认代码-->
-		<AckCode>AA</AckCode>
-		<!--延迟确认类型-->
-		<DelayedAckType>F</DelayedAckType>
-	 </MSA>
-</Head>
-<Body>
-	<!-- 检查申请单信息-->
-	<Patient>
-		<!-- 病人ID  -->
-		<PatientId>0000724942</PatientId>
-		<IdList>
-			<Item>
-				<!--患者标识id-->
-				<Id>440321196008218125</Id>
-				<!--患者标识类型  InpatientNO:住院号 OutpatientNo：门诊号 MedicareNo：医保卡号 PatientNo:-病历编号-->
-				<IdTypeCode>IDCard</IdTypeCode>
-			</Item>			
-		</IdList>
-		<!-- 姓名  -->
-		<PatientName>钟谷芹</PatientName>
-		<!-- 性别  -->
-		<Sex>F</Sex>
-	</Patient>
-	<Application>
-		<CommonOder>
-			<!-- 申请控制 -->
-			<OrderControl>OK</OrderControl>
-			<!-- 申请单号  -->
-			<ApplyNo>923449</ApplyNo>
-			<!-- 医嘱编号   -->
-			<AdviceNo>22631046|0</AdviceNo>
-			<!-- 就诊类型  -->
-			<MedicalType>O</MedicalType>
-			<!-- 就诊流水号  -->
-			<VisitNo>2067950</VisitNo>
-			<!-- 操作时间  -->
-			<OperateTime>20150515113226</OperateTime>
-			<!-- 操作者编码  -->
-			<OperatorCode>0001</OperatorCode>		
-			<!-- 操作者名称  -->
-			<OperatorName>李四</OperatorName>
-		</CommonOder>
-	</Application>
-</Body>
+  <Head>
+    <MSH>
+      <!--字段分隔符-->
+      <FieldSeparator>|</FieldSeparator>
+      <!--代码字符-->
+      <EncodingCharacters>^~\&</EncodingCharacters>
+      <!--发送方应用程序-->
+      <SendApplication>CIS</SendApplication>
+      <!--接收方应用程序-->
+      <ReceivingApplication>ECG</ReceivingApplication>
+      <!-- 消息日期 -->
+      <TimeOfMessage>20150515113226</TimeOfMessage>
+      <!--消息类型-->
+      <MessageType>OMG^O19</MessageType>
+      <!--消息ID-->
+      <MessageControlId>37555225</MessageControlId>
+      <!--处理ID-->
+      <ProcessingId>P</ProcessingId>
+      <!--版本ID-->
+      <VersionId>2.4</VersionId>
+      <!--消息接收确认类型-->
+      <AcceptAckType>AL</AcceptAckType>
+      <!--应用程序确认类型-->
+      <ApplicationAckType>AL</ApplicationAckType>
+      <!--国家代码-->
+      <CountryCode>CHN</CountryCode>
+    </MSH>
+    <MSA>
+      <!--确认代码-->
+      <AckCode>AA</AckCode>
+      <!--延迟确认类型-->
+      <DelayedAckType>F</DelayedAckType>
+    </MSA>
+  </Head>
+  <Body>
+    <!-- 检查申请单信息-->
+    <Patient>
+      <!-- 病人ID  -->
+      <PatientId>0000724942</PatientId>
+      <IdList>
+        <Item>
+          <!--患者标识id-->
+          <Id>440321196008218125</Id>
+          <!--患者标识类型  InpatientNO:住院号 OutpatientNo：门诊号 MedicareNo：医保卡号 PatientNo:-病历编号-->
+          <IdTypeCode>IDCard</IdTypeCode>
+        </Item>
+      </IdList>
+      <!-- 姓名  -->
+      <PatientName>钟谷芹</PatientName>
+      <!-- 性别  -->
+      <Sex>F</Sex>
+    </Patient>
+    <Application>
+      <CommonOder>
+        <!-- 申请控制 -->
+        <OrderControl>OK</OrderControl>
+        <!-- 申请单号  -->
+        <ApplyNo>923449</ApplyNo>
+        <!-- 医嘱编号   -->
+        <AdviceNo>22631046|0</AdviceNo>
+        <!-- 就诊类型  -->
+        <MedicalType>O</MedicalType>
+        <!-- 就诊流水号  -->
+        <VisitNo>2067950</VisitNo>
+        <!-- 操作时间  -->
+        <OperateTime>20150515113226</OperateTime>
+        <!-- 操作者编码  -->
+        <OperatorCode>0001</OperatorCode>
+        <!-- 操作者名称  -->
+        <OperatorName>李四</OperatorName>
+      </CommonOder>
+    </Application>
+  </Body>
 </Msg>
