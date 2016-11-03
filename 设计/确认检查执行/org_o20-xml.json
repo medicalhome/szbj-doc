@@ -97,7 +97,7 @@
     },
     "AckCode": {
         "desc": "确认代码",
-        "path": "/Msg/Head/MSA/AckCode",
+        "path": "/Msg/Body/MSA/AckCode",
         "display": "",
         "type": "string",
         "format": "",
@@ -105,7 +105,7 @@
     },
     "DelayedAckType": {
         "desc": "延迟确认类型",
-        "path": "/Msg/Head/MSA/DelayedAckType",
+        "path": "/Msg/Body/MSA/DelayedAckType",
         "display": "",
         "type": "string",
         "format": "",

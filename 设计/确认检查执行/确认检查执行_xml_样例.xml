@@ -27,14 +27,14 @@
       <!--国家代码-->
       <CountryCode>CHN</CountryCode>
     </MSH>
-    <MSA>
+  </Head>
+  <Body>
+      <MSA>
       <!--确认代码-->
       <AckCode>AA</AckCode>
       <!--延迟确认类型-->
       <DelayedAckType>F</DelayedAckType>
     </MSA>
-  </Head>
-  <Body>
     <!-- 检查申请单信息-->
     <Patient>
       <!-- 病人ID  -->

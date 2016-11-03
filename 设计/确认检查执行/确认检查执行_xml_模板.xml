@@ -3,100 +3,73 @@
   <Head>
     <MSH>
       <!--字段分隔符-->
-      <FieldSeparator>
-      </FieldSeparator>
+      <FieldSeparator></FieldSeparator>
       <!--代码字符-->
-      <EncodingCharacters>
-      </EncodingCharacters>
+      <EncodingCharacters></EncodingCharacters>
       <!--发送方应用程序-->
-      <SendApplication>
-      </SendApplication>
+      <SendApplication></SendApplication>
       <!--接收方应用程序-->
-      <ReceivingApplication>
-      </ReceivingApplication>
+      <ReceivingApplication></ReceivingApplication>
       <!--消息日期-->
-      <TimeOfMessage>
-      </TimeOfMessage>
+      <TimeOfMessage></TimeOfMessage>
       <!--消息类型-->
-      <MessageType>
-      </MessageType>
+      <MessageType></MessageType>
       <!--消息ID-->
-      <MessageControlId>
-      </MessageControlId>
+      <MessageControlId></MessageControlId>
       <!--处理ID-->
-      <ProcessingId>
-      </ProcessingId>
+      <ProcessingId></ProcessingId>
       <!--版本ID-->
-      <VersionId>
-      </VersionId>
+      <VersionId></VersionId>
       <!--消息接收确认类型-->
-      <AcceptAckType>
-      </AcceptAckType>
-      <!--消息接收确认类型-->
-      <ApplicationAckType>
-      </ApplicationAckType>
+      <AcceptAckType></AcceptAckType>
+      <!--应用程序确认类型-->
+      <ApplicationAckType></ApplicationAckType>
       <!--国家代码-->
-      <CountryCode>
-      </CountryCode>
+      <CountryCode></CountryCode>
     </MSH>
-    <MSA>
-      <!--确认代码-->
-      <AckCode>
-      </AckCode>
-      <!--延迟确认类型-->
-      <DelayedAckType>
-      </DelayedAckType>
-    </MSA>
   </Head>
   <Body>
+     <MSA>
+      <!--确认代码-->
+      <AckCode></AckCode>
+      <!--延迟确认类型-->
+      <DelayedAckType></DelayedAckType>
+    </MSA>
     <!-- 检查申请单信息-->
     <Patient>
       <!-- 病人ID  -->
-      <PatientId>
-      </PatientId>
+      <PatientId></PatientId>
       <IdList>
         <Item>
           <!--患者标识id-->
-          <Id>
-          </Id>
+          <Id></Id>
           <!--患者标识类型  InpatientNO:住院号 OutpatientNo：门诊号 MedicareNo：医保卡号 PatientNo:-病历编号-->
-          <IdTypeCode>
-          </IdTypeCode>
+          <IdTypeCode></IdTypeCode>
         </Item>
       </IdList>
       <!-- 姓名  -->
-      <PatientName>
-      </PatientName>
+      <PatientName></PatientName>
       <!-- 性别  -->
-      <Sex>
-      </Sex>
+      <Sex></Sex>
     </Patient>
     <Application>
-      <CommonOder>
+    <CommonOder>
         <!-- 申请控制 -->
-        <OrderControl>
-        </OrderControl>
+        <OrderControl></OrderControl>
         <!-- 申请单号  -->
-        <ApplyNo>
-        </ApplyNo>
+        <ApplyNo></ApplyNo>
         <!-- 医嘱编号   -->
-        <AdviceNo>
-        </AdviceNo>
+        <AdviceNo></AdviceNo>
         <!-- 就诊类型  -->
-        <MedicalType>
-        </MedicalType>
+        <MedicalType></MedicalType>
         <!-- 就诊流水号  -->
-        <VisitNo>
-        </VisitNo>
+        <VisitNo></VisitNo>
         <!-- 操作时间  -->
-        <OperateTime>
-        </OperateTime>
+        <OperateTime></OperateTime>
         <!-- 操作者编码  -->
-        <OperatorCode>
-        </OperatorCode>
+        <OperatorCode></OperatorCode>
         <!-- 操作者名称  -->
-        <OperatorName>
-        </OperatorName>
+        <OperatorName></OperatorName>
       </CommonOder>
     </Application>
   </Body>
