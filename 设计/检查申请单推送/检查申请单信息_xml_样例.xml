@@ -50,13 +50,11 @@
       <!-- 姓名  -->
       <PatientName>王力</PatientName>
       <!-- 医院Id  -->
-      <HospitalId>
-      </HospitalId>
+      <HospitalId></HospitalId>
       <!-- 性别  -->
       <Sex>F</Sex>
       <!-- 年龄  -->
-      <Age>
-      </Age>
+      <Age></Age>
     </Patient>
     <Visit>
       <!-- 就诊类型  -->
@@ -66,14 +64,11 @@
       <!-- 就诊次数  -->
       <VisitTimes>2</VisitTimes>
       <!-- 病区编码  -->
-      <WardCode>
-      </WardCode>
+      <WardCode></WardCode>
       <!-- 病房号(病区)  -->
-      <Ward>
-      </Ward>
+      <Ward></Ward>
       <!-- 床号  -->
-      <BedNo>
-      </BedNo>
+      <BedNo></BedNo>
       <!--就诊科室编码 -->
       <DeptCode>8149 </DeptCode>
       <!--就诊科室名称 -->
@@ -155,8 +150,7 @@
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
         <!--观察标识符-->
         <ObsIdentifierCode>HISTORY</ObsIdentifierCode>
-        <ObsIdentifierName>
-        </ObsIdentifierName>
+        <ObsIdentifierName></ObsIdentifierName>
         <!--值类型 ST-->
         <ValueType>ST</ValueType>
         <!--观察值-->
@@ -169,8 +163,7 @@
 			REMARK:备注 DIAG:诊断  SITE：部位描述-->
         <!--观察标识符-->
         <ObsIdentifierCode>SITE</ObsIdentifierCode>
-        <ObsIdentifierName>
-        </ObsIdentifierName>
+        <ObsIdentifierName></ObsIdentifierName>
         <!--值类型 ST-->
         <ValueType>ST</ValueType>
         <!--观察值-->
