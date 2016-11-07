@@ -53,8 +53,8 @@
       <HospitalId></HospitalId>
       <!-- 性别  -->
       <Sex>F</Sex>
-      <!-- 年龄  -->
-      <Age></Age>
+       <!-- 出生日期  -->
+      <Birthday></Birthday>
     </Patient>
     <Visit>
       <!-- 就诊类型  -->
@@ -87,8 +87,7 @@
         <!-- 申请时间  -->
         <AdviceTime>20150515113250</AdviceTime>
         <!-- 申请会诊时间  -->
-        <ConsultationTime>
-        </ConsultationTime>
+        <ConsultationTime></ConsultationTime>
         <!-- 申请医生编码  -->
         <AdviceDoctorCode>001257</AdviceDoctorCode>
         <!-- 申请医生  -->
@@ -112,8 +111,7 @@
         <!-- 执行科室名称  -->
         <ExecuteDeptName>心血管科</ExecuteDeptName>
         <!-- 备注  -->
-        <Remark>
-        </Remark>
+        <Remark></Remark>
       </ObservertionRequest>
       <ObsResult>
         <!--identifier:
