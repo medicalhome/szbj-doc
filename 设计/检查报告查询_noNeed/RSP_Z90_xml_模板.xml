@@ -27,14 +27,14 @@
 		<!--国家代码-->
 	   <CountryCode></CountryCode>
 	 </MSH>
+</Head>
+<Body>
 	 <MSA>
 		<!--确认代码-->
 		<AckCode></AckCode>
 		<!--延迟确认类型-->
 		<DelayedAckType></DelayedAckType>
 	 </MSA>
-</Head>
-<Body>
 	 <QAK>
 		<!--查询标签-->
 		<QueryTag></QueryTag>
