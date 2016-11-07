@@ -5,7 +5,7 @@
       <!--字段分隔符-->
       <FieldSeparator>|</FieldSeparator>
       <!--代码字符-->
-      <EncodingCharacters>^~\&</EncodingCharacters>
+      <EncodingCharacters>^~\&amp;</EncodingCharacters>
       <!--发送方应用程序-->
       <SendApplication>CIS</SendApplication>
       <!--接收方应用程序-->
