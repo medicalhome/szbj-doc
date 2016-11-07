@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Msg>
+<Head>
+	<MSH>
+		<!--字段分隔符-->
+		<FieldSeparator></FieldSeparator>
+		<!--代码字符-->
+		<EncodingCharacters></EncodingCharacters>	
+	   <!--发送方应用程序-->
+	   <SendApplication></SendApplication>
+	   <!--接收方应用程序-->
+	   <ReceivingApplication></ReceivingApplication>
+	  <!--消息日期-->
+	   <TimeOfMessage></TimeOfMessage> 
+	   <!--消息类型-->
+	   <MessageType></MessageType>
+	   <!--消息ID-->
+	   <MessageControlId></MessageControlId>
+	   <!--处理ID-->
+	   <ProcessingId></ProcessingId>
+	   <!--版本ID-->
+	   <VersionId></VersionId>
+		<!--消息接收确认类型-->
+	   <AcceptAckType></AcceptAckType>
+		<!--消息接收确认类型-->
+	   <ApplicationAckType></ApplicationAckType>   
+		<!--国家代码-->
+	   <CountryCode></CountryCode>
+	 </MSH>
+</Head>
+<Body>
+	 <MSA>
+		<!--确认代码-->
+		<AckCode></AckCode>
+		<!--延迟确认类型-->
+		<DelayedAckType></DelayedAckType>
+	 </MSA>
+	 <QAK>
+		<!--查询标签-->
+		<QueryTag></QueryTag>
+		<!--查询应答状态-->
+		<QueryResponseStatus></QueryResponseStatus>
+		<!--消息查询编码-->
+		<QueryIdentifier></QueryIdentifier>		
+		<!--消息查询名称-->
+		<QueryName></QueryName>
+		<!--消息查询编码体系-->
+		<QueryNameSystem></QueryNameSystem>	
+		<!--查询总数-->
+		<CountTotal></CountTotal>			
+	 </QAK>	
+	 <QPD>
+		<!--消息查询名称-->
+		<QueryName></QueryName>
+		<!--查询标签-->
+		<QueryTag></QueryTag>
+		<!--查询参数-->
+		<UserParameter></UserParameter>	
+	 </QPD>
+	 <Err>
+		<!--错误段ID-->
+		<ErrSegmentId></ErrSegmentId>
+		<!--错误顺序-->
+		<ErrSequence></ErrSequence>
+		<!--错误字段位置-->
+		<ErrFieldPosition></ErrFieldPosition>
+	 </Err>	
+	<ResultItem>
+		<!-- 执行申请单信息-->
+		<Patient>
+			<!-- 病人ID  -->
+			<PatientId></PatientId>
+			<IdList>
+				<Item>
+					<!--患者标识id-->
+					<Id></Id>
+					<!--患者标识类型  InpatientNO:住院号 OutpatientNo：门诊号 MedicareNo：医保卡号 PatientNo:-病历编号-->
+					<IdTypeCode></IdTypeCode>
+				</Item>
+			</IdList>
+			<!-- 姓名  -->
+			<PatientName></PatientName>
+			<!-- 医院Id  -->
+			<HospitalId></HospitalId>
+			<!-- 性别  -->
+			<Sex></Sex>
+			<!-- 出生日期  -->
+			<Birthday></Birthday>
+		</Patient>
+		<visit>
+			<!-- 就诊类型  -->
+			<MedicalType></MedicalType>
+			<!-- 就诊流水号  -->
+			<VisitNo></VisitNo>
+			<!-- 就诊次数  -->
+			<VisitTimes></VisitTimes>
+			<!-- 病区编码  -->
+			<WardCode></WardCode>
+			<!-- 病房号(病区)  -->
+			<Ward></Ward>
+			<!-- 床号  -->
+			<BedNo></BedNo>
+			<!--就诊科室编码 -->
+			<DeptCode> </DeptCode>
+			<!--就诊科室名称 -->
+			<DeptCode></DeptCode>			
+		<visit>
+		<ObservertionRequest>
+			<!-- 申请单号  -->
+			<ApplyNo></ApplyNo>
+			<!-- 检查项目代码  -->
+			<CheckItemCode></CheckItemCode>
+			<!-- 检查项目名称  -->
+			<CheckItemName></CheckItemName>						
+			<!-- 报告医生编码  -->
+			<ReportDoctorCode></ReportDoctorCode>
+			<!-- 报告医生  -->
+			<ReportDoctorNm></ReportDoctorNm>
+			<!-- 报告时间  -->
+			<ReportTime></ReportTime>
+			<!-- 审核医生编码  -->
+			<CheckedDoctorCode></CheckedDoctorCode>
+			<!-- 审核医生名称  -->
+			<CheckedDoctorNm></CheckedDoctor>
+			<!-- 审核时间  -->
+			<CheckedTime></CheckedTime>		
+			<!-- 执行科室编码  -->
+			<ExecDeptCode></ExecDeptCode>
+			<!-- 执行科室名称  -->
+			<ExecDeptName></ExecDeptName>
+		</ObservertionRequest>
+		<ObsResult>
+			<!--identifier:
+			SIGN:临床症状及体征  HISTORY:既往病史
+			RIS:执行结果  LIS:检验结果  DRUG:用药情况
+			REMARK:备注 DIAG:诊断  SITE：部位描述-->
+			<!-- 报告Id  -->
+			<StaticEcgId></StaticEcgId>
+			<!--观察标识符编码-->
+			<ObsIdentifierCode></ObsIdentifierCode>
+			
+			<!--值类型 ST-->
+			<ValueType></ValueType>
+			<!--观察值-->
+			<ObservationValue></ObservationValue>
+		</ObsResult>
+	</ResultItem>
+</Body>
+</Msg>

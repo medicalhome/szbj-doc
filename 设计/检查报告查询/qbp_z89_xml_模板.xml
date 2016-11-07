@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Msg>
+<Head>
+	<MSH>
+		<!--字段分隔符-->
+		<FieldSeparator></FieldSeparator>
+		<!--代码字符-->
+		<EncodingCharacters></EncodingCharacters>	
+	   <!--发送方应用程序-->
+	   <SendApplication></SendApplication>
+	   <!--接收方应用程序-->
+	   <ReceivingApplication></ReceivingApplication>
+	  <!--消息日期-->
+	   <TimeOfMessage></TimeOfMessage> 
+	   <!--消息类型-->
+	   <MessageType></MessageType>
+	   <!--消息ID-->
+	   <MessageControlId></MessageControlId>
+	   <!--处理ID-->
+	   <ProcessingId></ProcessingId>
+	   <!--版本ID-->
+	   <VersionId></VersionId>
+		<!--消息接收确认类型-->
+	   <AcceptAckType></AcceptAckType>
+		<!--消息接收确认类型-->
+	   <ApplicationAckType></ApplicationAckType>   
+		<!--国家代码-->
+	   <CountryCode></CountryCode>
+	 </MSH>
+</Head>
+<Body>
+	 <QPD>
+		<!--消息查询编码-->
+		<QueryIdentifier></QueryIdentifier>		
+		<!--消息查询名称-->
+		<QueryName></QueryName>
+		<!--消息查询编码体系-->
+		<QueryNameSystem></QueryNameSystem>	
+		<!--查询标签-->
+		<QueryTag></QueryTag>
+		<!--查询参数-->
+		<UserParameter></UserParameter>	
+	 </QPD>
+	 <RCP>
+		<!--查询优先级-->
+		<QueryPriority></QueryPriority>
+		<!--请求所限制的数量-->
+		<QuantityLimitedReq></QuantityLimitedReq>	
+		<!--请求所限制的数量单位-->
+		<QuantityLimtedReqUnit></QuantityLimtedReqUnit>			
+	 </RCP>
+</Body>
+</Msg>
