@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Msg>
+<Head>
+	<MSH>
+		<!--字段分隔符-->
+		<FieldSeparator>|</FieldSeparator>
+		<!--代码字符-->
+		<EncodingCharacters>^~\&amp;</EncodingCharacters>	
+	   <!--发送方应用程序-->
+	   <SendApplication>HIS</SendApplication>
+	   <!--接收方应用程序-->
+	   <ReceivingApplication>ECG</ReceivingApplication>
+	  <!--消息日期-->
+	   <TimeOfMessage>199907131040</TimeOfMessage> 
+	   <!--消息类型-->
+	   <MessageType>QBP^Z61^QBP_Z61</MessageType>
+	   <!--消息ID-->
+	   <MessageControlId>4495</MessageControlId>
+	   <!--处理ID-->
+	   <ProcessingId>D</ProcessingId>
+	   <!--版本ID-->
+	   <VersionId>2.6</VersionId>
+		<!--消息接收确认类型-->
+	   <AcceptAckType></AcceptAckType>
+		<!--消息接收确认类型-->
+	   <ApplicationAckType></ApplicationAckType>   
+		<!--国家代码-->
+	   <CountryCode></CountryCode>
+	 </MSH>
+</Head>
+<Body>
+	 <QPD>
+		<!--消息查询编码-->
+		<QueryIdentifier>Z61</QueryIdentifier>		
+		<!--消息查询名称-->
+		<QueryName>applicationHistory</QueryName>
+		<!--消息查询编码体系-->
+		<QueryNameSystem>HL7nnnn</QueryNameSystem>	
+		<!--查询标签-->
+		<QueryTag>222222324353</QueryTag>
+		<!--查询参数-->
+		<UserParameter>@PD1.2^111~@PV1.2^O~@OBC.2^19990323</UserParameter>	
+	 </QPD>
+	 <RCP>
+		<!--查询优先级-->
+		<QueryPriority>I</QueryPriority>
+		<!--请求所限制的数量-->
+		<QuantityLimitedReq>200</QuantityLimitedReq>	
+		<!--请求所限制的数量单位-->
+		<QuantityLimtedReqUnit>RD</QuantityLimtedReqUnit>			
+	 </RCP>
+</Body>
+</Msg>
