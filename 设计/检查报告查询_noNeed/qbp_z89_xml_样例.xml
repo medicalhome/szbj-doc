@@ -11,17 +11,17 @@
 	   <!--接收方应用程序-->
 	   <ReceivingApplication>HIS</ReceivingApplication>
 	  <!--消息日期-->
-	   <TimeOfMessage>20150515113608</TimeOfMessage> 
+	   <TimeOfMessage>199907131040</TimeOfMessage> 
 	   <!--消息类型-->
-	   <MessageType>QDP^Z89</MessageType>
+	   <MessageType>QBP^Z89^QBP_Z89</MessageType>
 	   <!--消息ID-->
-	   <MessageControlId>1122222</MessageControlId>
+	   <MessageControlId>4495</MessageControlId>
 	   <!--处理ID-->
-	   <ProcessingId></ProcessingId>
+	   <ProcessingId>D</ProcessingId>
 	   <!--版本ID-->
-	   <VersionId>P</VersionId>
+	   <VersionId>2.6</VersionId>
 		<!--消息接收确认类型-->
-	   <AcceptAckType>2.4</AcceptAckType>
+	   <AcceptAckType></AcceptAckType>
 		<!--消息接收确认类型-->
 	   <ApplicationAckType></ApplicationAckType>   
 		<!--国家代码-->
