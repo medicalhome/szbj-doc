@@ -97,7 +97,7 @@
     },
     "PatientId": {
         "desc": "患者id",
-        "path": "/PID-2",
+        "path": "/PATIENT/PID-2",
         "display": "",
         "type": "string",
         "format": "",
@@ -105,7 +105,7 @@
     },
     "PIdList": {
         "desc": "患者标识",
-        "path": "/PID-3",
+        "path": "/PATIENT_RESULT/PATIENT/PID-3",
         "display": "",
         "type": "complex",
         "format": "",
@@ -113,7 +113,7 @@
         "child": {
             "Id": {
                 "desc": "标识号",
-                "path": "/PID-3(#)-1",
+                "path": "/PATIENT/PID-3(#)-1",
                 "display": "",
                 "type": "string",
                 "format": "",
@@ -121,7 +121,7 @@
             },
             "IdTypeCode": {
                 "desc": "标识类型",
-                "path": "/PID-3(#)-5",
+                "path": "/PATIENT/PID-3(#)-5",
                 "display": "",
                 "type": "string",
                 "format": "",
@@ -131,7 +131,7 @@
     },
     "PatientName": {
         "desc": "患者名称",
-        "path": "/PID-5",
+        "path": "/PATIENT_RESULT/PATIENT/PID-5",
         "display": "",
         "type": "string",
         "format": "",
@@ -139,7 +139,7 @@
     },
     "GenderCode": {
         "desc": "性别编码",
-        "path": "/PID-8",
+        "path": "/PATIENT_RESULT/PATIENT/PID-8",
         "display": "",
         "type": "string",
         "format": "",
@@ -147,7 +147,7 @@
     },
     "VisitTypeCode": {
         "desc": "就诊类别编码",
-        "path": "/PV1-2",
+        "path": "/PATIENT_RESULT/PATIENT/PATIENT_VISIT/PV1-2",
         "display": "",
         "type": "string",
         "format": "",
@@ -155,7 +155,7 @@
     },
     "VisitTimes": {
         "desc": "就诊次数",
-        "path": "/PV1-13",
+        "path": "/PATIENT_RESULT/PATIENT/PATIENT_VISIT/PV1-13",
         "display": "",
         "type": "string",
         "format": "",
@@ -163,7 +163,7 @@
     },
     "VisitOrdNo": {
         "desc": "就诊流水号",
-        "path": "/PV1-19",
+        "path": "/PATIENT_RESULT/PATIENT/PATIENT_VISIT/PV1-19",
         "display": "",
         "type": "string",
         "format": "",
@@ -171,7 +171,7 @@
     },
     "BedNo": {
         "desc": "床号",
-        "path": "/PV1-3-3",
+        "path": "/PATIENT_RESULT/PATIENT/PATIENT_VISIT/PV1-3-3",
         "display": "",
         "type": "string",
         "format": "",
@@ -179,7 +179,7 @@
     },
     "WardsCode": {
         "desc": "病区编码",
-        "path": "/PV1-3-1",
+        "path": "/PATIENT_RESULT/PATIENT/PATIENT_VISIT/PV1-3-1",
         "display": "",
         "type": "string",
         "format": "",
@@ -187,7 +187,7 @@
     },
     "ApplyNo": {
         "desc": "申请单号",
-        "path": "/OBR-2",
+        "path": "/PATIENT_RESULT/ORDER_OBSERATION/OBR-2",
         "display": "",
         "type": "string",
         "format": "",
@@ -196,7 +196,7 @@
 
     "CheckItemCode": {
         "desc": "检查项目编码",
-        "path": "/OBR-4-1",
+        "path": "/PATIENT_RESULT/ORDER_OBSERATION/OBR-4-1",
         "display": "",
         "type": "string",
         "format": "",
@@ -204,7 +204,7 @@
     },
     "CheckItemName": {
         "desc": "检查项目名称",
-        "path": "/OBR-4-2",
+        "path": "/PATIENT_RESULT/ORDER_OBSERATION/OBR-4-2",
         "display": "",
         "type": "string",
         "format": "",
@@ -220,7 +220,7 @@
     },
     "ReportDoctorNm": {
         "desc": "报告医生名称",
-        "path": "/OBR-35",
+        "path": "/PATIENT_RESULT/ORDER_OBSERATION/OBR-35",
         "display": "",
         "type": "string",
         "format": "",
@@ -228,7 +228,7 @@
     },
     "ReportTime": {
         "desc": "报告时间",
-        "path": "/OBR-22",
+        "path": "/PATIENT_RESULT/ORDER_OBSERATION/OBR-22",
         "display": "",
         "type": "string",
         "format": "",
@@ -260,7 +260,7 @@
     },
     "ExecDeptCode": {
         "desc": "执行科室名称",
-        "path": "/OBR-20",
+        "path": "/PATIENT_RESULT/ORDER_OBSERATION/OBR-20",
         "display": "",
         "type": "string",
         "format": "",
