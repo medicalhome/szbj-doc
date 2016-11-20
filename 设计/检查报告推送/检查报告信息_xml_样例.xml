@@ -13,7 +13,11 @@
       <!-- 消息日期 -->
       <TimeOfMessage>20150515113608</TimeOfMessage>
       <!--消息类型-->
-      <MessageType>ORU^R01</MessageType>
+      <MessageType>ORU</MessageType>
+		  <!--触发事件-->
+	  <TriggerEvent>R01</TriggerEvent>
+	  <!--消息结构-->
+      <MessageStructure>ORU_R01</MessageStructure>
       <!--消息ID-->
       <MessageControlId>33304998644145007</MessageControlId>
       <!--处理ID-->
