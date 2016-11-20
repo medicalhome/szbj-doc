@@ -41,7 +41,23 @@
     },
     "MessageType": {
         "desc": "消息类型",
-        "path": "/MSH-9",
+        "path": "/MSH-9-1",
+        "display": "",
+        "type": "string",
+        "format": "",
+        "multiplicity": "0..1"
+    },
+    "TriggerEvent": {
+        "desc": "触发事件",
+        "path": "/MSH-9-2",
+        "display": "",
+        "type": "string",
+        "format": "",
+        "multiplicity": "0..1"
+    },	
+    "MessageStructure": {
+        "desc": "消息结构",
+        "path": "/MSH-9-3",
         "display": "",
         "type": "string",
         "format": "",
