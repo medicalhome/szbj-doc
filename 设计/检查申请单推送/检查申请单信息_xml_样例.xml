@@ -13,7 +13,11 @@
       <!-- 消息日期 -->
       <TimeOfMessage>20150515113334</TimeOfMessage>
       <!--消息类型-->
-      <MessageType>OMG^O19</MessageType>
+      <MessageType>OMG</MessageType>
+	  <!--触发事件-->
+	  <TriggerEvent>O19</TriggerEvent>
+	  <!--消息结构-->
+      <MessageStructure>OMG_O19</MessageStructure>
       <!--消息ID-->
       <MessageControlId>37555384</MessageControlId>
       <!--处理ID-->
