@@ -113,7 +113,7 @@
         "child": {
             "Id": {
                 "desc": "标识号",
-                "path": "/PATIENT/PID-3(#)-1",
+                "path": "/PATIENT_RESULT/PATIENT/PID-3(#)-1",
                 "display": "",
                 "type": "string",
                 "format": "",
@@ -121,7 +121,7 @@
             },
             "IdTypeCode": {
                 "desc": "标识类型",
-                "path": "/PATIENT/PID-3(#)-5",
+                "path": "/PATIENT_RESULT/PATIENT/PID-3(#)-5",
                 "display": "",
                 "type": "string",
                 "format": "",
@@ -268,7 +268,7 @@
     },
     "Obxs": {
         "desc": "观察结果",
-        "path": "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION/OBX",
+        "path": "/PATIENT_RESULT/ORDER_OBSERVATION/OBSERVATION",
         "display": "",
         "type": "complex",
         "format": "",
