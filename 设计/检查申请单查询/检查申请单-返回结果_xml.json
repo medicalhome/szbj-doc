@@ -47,6 +47,22 @@
         "format": "",
         "multiplicity": "0..1"
     },
+    "TriggerEvent": {
+        "desc": "触发事件",
+        "path": "/Msg/Head/MSH/TriggerEvent",
+        "display": "",
+        "type": "string",
+        "format": "",
+        "multiplicity": "0..1"
+    },	
+    "MessageStructure": {
+        "desc": "消息结构",
+        "path": "/Msg/Head/MSH/MessageStructure",
+        "display": "",
+        "type": "string",
+        "format": "",
+        "multiplicity": "0..1"
+    },	
     "MessageControlId": {
         "desc": "消息ID",
         "path": "/Msg/Head/MessageControlId",

@@ -20,6 +20,10 @@
       <!--消息类型-->
       <MessageType>
       </MessageType>
+	  <!--触发事件-->
+	  <TriggerEvent></TriggerEvent>
+	  <!--消息结构-->
+      <MessageStructure></MessageStructure>
       <!--消息ID-->
       <MessageControlId>
       </MessageControlId>

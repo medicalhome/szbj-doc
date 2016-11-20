@@ -13,7 +13,11 @@
 	  <!--消息日期-->
 	   <TimeOfMessage>199907131040</TimeOfMessage> 
 	   <!--消息类型-->
-	   <MessageType>QBP^Z61^QBP_Z61</MessageType>
+	   <MessageType>QBP</MessageType>
+	  <!--触发事件-->
+	  <TriggerEvent>Z61</TriggerEvent>
+	  <!--消息结构-->
+      <MessageStructure>QBP_Z61</MessageStructure>
 	   <!--消息ID-->
 	   <MessageControlId>4495</MessageControlId>
 	   <!--处理ID-->
