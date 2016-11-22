@@ -74,6 +74,8 @@
         <OperatorCode>0001</OperatorCode>
         <!-- 操作者名称  -->
         <OperatorName>李四</OperatorName>
+		<!--医嘱执行状态  IP：已登记   CM 检查已完成  OD 医嘱中止-->
+		<OrderExeStatus>IP</OrderExeStatus>
       </CommonOder>
     </Application>
   </Body>
