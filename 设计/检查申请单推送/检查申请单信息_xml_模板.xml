@@ -75,7 +75,7 @@
     <Application>
       <CommonOder>
         <!-- 申请控制 取值范围( ) -->
-        <OrderControl>/OrderControl>
+        <OrderControl></OrderControl>
         <!-- 申请单号  -->
         <ApplyNo></ApplyNo>
         <!-- 医嘱编号   -->
