@@ -13,7 +13,11 @@
 	  <!--消息日期-->
 	   <TimeOfMessage>20160515113608</TimeOfMessage> 
 	   <!--消息类型-->
-	   <MessageType>PSP^Z90</MessageType>
+	   <MessageType>ACK</MessageType>
+	  <!--触发事件-->
+	  <TriggerEvent></TriggerEvent>
+	  <!--消息结构-->
+      <MessageStructure></MessageStructure>
 	   <!--消息ID-->
 	   <MessageControlId>1111122222</MessageControlId>
 	   <!--处理ID-->
