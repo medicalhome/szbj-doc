@@ -51,7 +51,7 @@
 		<!--请求所限制的数量-->
 		<QuantityLimitedReq>200</QuantityLimitedReq>	
 		<!--请求所限制的数量单位-->
-		<QuantityLimtedReqUnit>RD</QuantityLimtedReqUnit>			
+		<QuantityLimitedReqUnit>RD</QuantityLimitedReqUnit>			
 	 </RCP>
 </Body>
 </Msg>

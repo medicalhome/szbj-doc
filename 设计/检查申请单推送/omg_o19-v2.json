@@ -161,6 +161,14 @@
         "format": "",
         "multiplicity": "0..1"
     },
+     "Birthday": {
+        "desc": "出生日期",
+        "path": "/PATIENT/PID-7",
+        "display": "",
+        "type": "string",
+        "format": "",
+        "multiplicity": "0..1"
+    },
     "VisitTypeCode": {
         "desc": "就诊类别编码",
         "path": "/PATIENT/PATIENT_VISIT/PV1-2",

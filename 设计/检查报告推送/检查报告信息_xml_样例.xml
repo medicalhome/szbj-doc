@@ -83,7 +83,7 @@
       <!--就诊科室编码 -->
       <DeptCode>010</DeptCode>
       <!--就诊科室名称 -->
-      <DeptCode></DeptCode>
+      <DeptNm></DeptNm>
     </Visit>
     <ObservertionRequest>
       <!-- 申请单号  -->
@@ -133,8 +133,7 @@
       <!-- 报告Id  -->
       <StaticEcgId>2</StaticEcgId>
       <!--观察标识符编码-->
-      <ObsIdentifierCode>
-      </ObsIdentifierCode>
+      <ObsIdentifierCode></ObsIdentifierCode>
       <!--观察标识符名称-->
       <ObsIdentifierName>检查提示</ObsIdentifierName>
       <!--值类型 ST-->

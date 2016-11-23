@@ -169,7 +169,7 @@
     },
     "QuantityLimtedReqUnit": {
         "desc": "请求所限制的数量单位",
-        "path": "/Msg/Body/RCP/QuantityLimtedReqUnit",
+        "path": "/Msg/Body/RCP/QuantityLimitedReqUnit",
         "display": "",
         "type": "string",
         "format": "",

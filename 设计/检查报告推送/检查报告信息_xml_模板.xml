@@ -70,7 +70,7 @@
         <!--就诊科室编码 -->
         <DeptCode></DeptCode>
         <!--就诊科室名称 -->
-        <DeptCode></DeptCode>
+        <DeptNm></DeptNm>
       </Visit>
       <ObservertionRequest>
         <!-- 申请单号  -->
