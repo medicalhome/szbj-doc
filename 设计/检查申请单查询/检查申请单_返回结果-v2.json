@@ -200,7 +200,7 @@
         "multiplicity": "0..1"
     },
     "ResultItem": {
-        "desc": "患者标识",
+        "desc": "申请单信息",
         "path": "/QUERY_RESPONSE",
         "display": "",
         "type": "complex",
