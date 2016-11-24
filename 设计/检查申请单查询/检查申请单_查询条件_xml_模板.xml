@@ -70,8 +70,8 @@
       <QuantityLimitedReq>
       </QuantityLimitedReq>
       <!--请求所限制的数量单位-->
-      <QuantityLimtedReqUnit>
-      </QuantityLimtedReqUnit>
+      <QuantityLimitedReqUnit>
+      </QuantityLimitedReqUnit>
     </RCP>
   </Body>
 </Msg>
