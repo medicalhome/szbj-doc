@@ -161,6 +161,14 @@
             "format": "",
             "multiplicity": "0..1"
         },
+		 "Birthday": {
+			"desc": "出生日期",
+			"path": "/Msg/Body/Patient/Birthday",
+			"display": "",
+			"type": "string",
+			"format": "",
+			"multiplicity": "0..1"
+		},			
         "VisitTypeCode": {
             "desc": "就诊类别编码",
             "path": "/Msg/Body/Visit/MedicalType",
